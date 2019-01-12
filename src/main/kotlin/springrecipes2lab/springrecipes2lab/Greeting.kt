@@ -9,4 +9,6 @@ class Greeting {
     fun sayHello(): String {
         return name
     }
+
+    private fun sayPrivateHello(aName: String? = null) = aName ?: "Private name"
 }
